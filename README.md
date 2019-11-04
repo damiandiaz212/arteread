@@ -8,14 +8,22 @@ arteread is a mobile app to keep track of your cholesterol intake.
   - Set goals and get recommendations for a healthier diet
   - View your data on a chart
 
-# What's new?
-right now only the ingestion portion is complete, you can test it in your terminal by opening 
-your virtual enviornment, navigating to /server and running 
-```python
-python ingestion.py <api_key> <food>
+# How to use?
+install requirements
+```shell
+$ pip install -r requirements.txt
+```
+navigate into server and run flask
+```shell
+$ cd arteread/server
+$ flask run
+```
+in another terminal run
+```shell
+$ curl -X POST http://localhost:5000/api/v1.0/search/<FOOD_HERE>/api=<API_KEY>
 ```
 *NOTE: you need a FDC api key to run this script, you can get one at https://fdc.nal.usda.gov/api-key-signup.html*
-![example](https://i.imgur.com/5dijkVU.png)
+![example](https://i.imgur.com/4ad8FLq.png)
 
 # Development checklist
 ##### [BACK-END]
@@ -25,10 +33,11 @@ python ingestion.py <api_key> <food>
   - [X] Make another call with "Food Code" to collect nutrition info
   - [X] Parse JSON response and collect needed info
 - [ ] Create server side request handler using Flask
-  - [ ] Handle inbound requests
-  - [ ] Parse keywords from request (possibly run natural language processing) on these
-  - [ ] Send keywords to ingestion engine, recieve response
-  - [ ] Respond to initial request with ingestion response
+  - [X] Handle inbound requests
+  - [X] Parse keywords from request 
+  	- [ ] possibly run natural language processing on them
+  - [X] Send keywords to ingestion engine, recieve response
+  - [X] Respond to initial request with ingestion response
   - [ ] Secure API (authorization, request limits) 
 - [ ] Build test dashboard to test back-end services
 - [ ] Deploy 
