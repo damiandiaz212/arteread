@@ -15,7 +15,7 @@ your virtual enviornment, navigating to /server and running
 python ingestion.py <api_key> <food>
 ```
 *NOTE: you need a FDC api key to run this script, you can get one at https://fdc.nal.usda.gov/api-key-signup.html*
-![example](https://i.imgur.com/v32OBN8.png)
+![example](https://i.imgur.com/5dijkVU.png)
 
 # Development checklist
 ##### [BACK-END]
@@ -25,10 +25,15 @@ python ingestion.py <api_key> <food>
   - [X] Make another call with "Food Code" to collect nutrition info
   - [X] Parse JSON response and collect needed info
 - [ ] Create server side request handler using Flask
-  - [ ] subtasks pending
-- [ ] Test functionality with web app
+  - [ ] Handle inbound requests
+  - [ ] Parse keywords from request (possibly run natural language processing) on these
+  - [ ] Send keywords to ingestion engine, recieve response
+  - [ ] Respond to initial request with ingestion response
+  - [ ] Secure API (authorization, request limits) 
+- [ ] Build test dashboard to test back-end services
 - [ ] Deploy 
 ##### [FRONT-END]
+- [ ] Set up X-Code enviornment
 - [ ] pending
 
 *Have an idea for a feature? Fork this repo and add it to the list!*
