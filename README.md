@@ -15,7 +15,7 @@ your virtual enviornment, navigating to /server and running
 python ingestion.py <api_key> <food>
 ```
 *NOTE: you need a FDC api key to run this script, you can get one at https://fdc.nal.usda.gov/api-key-signup.html*
-![example](https://i.imgur.com/v32OBN8.png)
+![example](https://i.imgur.com/5dijkVU.png)
 
 # Development checklist
 ##### [BACK-END]
