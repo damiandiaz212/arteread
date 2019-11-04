@@ -10,11 +10,11 @@ arteread is a mobile app to keep track of your cholesterol intake.
 
 # Development checklist
 ##### [BACK-END]
-- [ ] Create basic server side api ingestion engine
+- [X] Create basic server side api ingestion engine
   - [X] Call FDC API using keywords and recieve actual results
   - [X] Parse JSON response and collect "Food Code" from top result
-  - [ ] Make another call with "Food Code" to collect nutrition info
-  - [ ] Parse JSON response and collect needed info
+  - [X] Make another call with "Food Code" to collect nutrition info
+  - [X] Parse JSON response and collect needed info
 - [ ] Create server side request handler using Flask
   - [ ] subtasks pending
 - [ ] Test functionality with web app
