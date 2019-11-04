@@ -12,10 +12,10 @@ arteread is a mobile app to keep track of your cholesterol intake.
 right now only the ingestion portion is complete, you can test it in your terminal by opening 
 your virtual enviornment, navigating to /server and running 
 ```python
-python ingestion.py <food>
+python ingestion.py <api_key> <food>
 ```
 *NOTE: you need a FDC api key to run this script, you can get one at https://fdc.nal.usda.gov/api-key-signup.html*
-![example](https://i.imgur.com/9QKlxA1.png)
+![example](https://i.imgur.com/v32OBN8.png)
 
 # Development checklist
 ##### [BACK-END]

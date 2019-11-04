@@ -3,7 +3,7 @@ import json
 import timeit
 import sys
 
-API = ""
+API = sys.argv[1]
 URL_1 = 'https://api.nal.usda.gov/fdc/v1/search'
 URL_2 = 'https://api.nal.usda.gov/fdc/v1/'
 
@@ -99,4 +99,4 @@ def findCholesterol(data):
 
 
 
-getInfo(str(sys.argv[1]))
+getInfo(str(sys.argv[2]))
