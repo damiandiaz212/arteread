@@ -38,9 +38,9 @@ $ curl -X POST http://localhost:5000/api/v1.0/search/<FOOD_HERE>/api=<API_KEY>
   	- [ ] possibly run natural language processing on them
   - [X] Send keywords to ingestion engine, recieve response
   - [X] Respond to initial request with ingestion response
-  - [ ] Secure API (authorization, request limits) 
+  - [X] Secure API (authorization, request limits) 
 - [ ] Build test dashboard to test back-end services
-- [ ] Deploy 
+- [X] Deploy 
 ##### [FRONT-END]
 - [ ] Set up X-Code enviornment
 - [ ] pending
