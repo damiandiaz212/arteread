@@ -1,4 +1,4 @@
-![logo](https://i.imgur.com/PGAjSeI.png)
+![logo](https://i.imgur.com/kaQEAwb.png)
 
 # What is it?
 arteread is a mobile app to keep track of your cholesterol intake. 
