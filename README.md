@@ -1,4 +1,4 @@
-![logo](https://i.imgur.com/lw6P8yt.png)
+![logo](https://i.imgur.com/Wq23K7e.png)
 
 # What is it?
 arteread is a mobile app to keep track of your cholesterol intake. 
@@ -42,7 +42,7 @@ $ curl -X POST http://localhost:5000/api/v1.0/search/<FOOD_HERE>/api=<API_KEY>
 - [ ] Build test dashboard to test back-end services
 - [X] Deploy 
 ##### [FRONT-END]
-- [ ] Set up X-Code enviornment
+- [X] Set up X-Code enviornment
 - [ ] pending
 
 *Have an idea for a feature? Fork this repo and add it to the list!*
