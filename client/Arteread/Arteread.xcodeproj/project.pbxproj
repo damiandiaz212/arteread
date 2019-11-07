@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DE76D3C2373CD1600E8ACAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76D3B2373CD1600E8ACAD /* AppDelegate.swift */; };
+		2DE76D3E2373CD1600E8ACAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76D3D2373CD1600E8ACAD /* SceneDelegate.swift */; };
+		2DE76D402373CD1600E8ACAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76D3F2373CD1600E8ACAD /* ViewController.swift */; };
+		2DE76D432373CD1600E8ACAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE76D412373CD1600E8ACAD /* Main.storyboard */; };
+		2DE76D452373CD1800E8ACAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE76D442373CD1800E8ACAD /* Assets.xcassets */; };
+		2DE76D482373CD1800E8ACAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE76D462373CD1800E8ACAD /* LaunchScreen.storyboard */; };
+		2DE76D532373CD1800E8ACAD /* ArtereadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76D522373CD1800E8ACAD /* ArtereadTests.swift */; };
+		2DE76D5E2373CD1800E8ACAD /* ArtereadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE76D5D2373CD1800E8ACAD /* ArtereadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DE76D4F2373CD1800E8ACAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE76D302373CD1600E8ACAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE76D372373CD1600E8ACAD;
+			remoteInfo = Arteread;
+		};
+		2DE76D5A2373CD1800E8ACAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE76D302373CD1600E8ACAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE76D372373CD1600E8ACAD;
+			remoteInfo = Arteread;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE76D382373CD1600E8ACAD /* Arteread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arteread.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE76D3B2373CD1600E8ACAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DE76D3D2373CD1600E8ACAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DE76D3F2373CD1600E8ACAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DE76D422373CD1600E8ACAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DE76D442373CD1800E8ACAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DE76D472373CD1800E8ACAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DE76D492373CD1800E8ACAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE76D4E2373CD1800E8ACAD /* ArtereadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtereadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE76D522373CD1800E8ACAD /* ArtereadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtereadTests.swift; sourceTree = "<group>"; };
+		2DE76D542373CD1800E8ACAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE76D592373CD1800E8ACAD /* ArtereadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtereadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE76D5D2373CD1800E8ACAD /* ArtereadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtereadUITests.swift; sourceTree = "<group>"; };
+		2DE76D5F2373CD1800E8ACAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE76D6E2373CDB700E8ACAD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2DE76D702373CDB700E8ACAD /* icon_20pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_20pt.png; sourceTree = "<group>"; };
+		2DE76D712373CDB700E8ACAD /* Icon_noback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_noback.png; sourceTree = "<group>"; };
+		2DE76D722373CDB700E8ACAD /* icon_76pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_76pt.png; sourceTree = "<group>"; };
+		2DE76D742373CDB700E8ACAD /* icon_60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_60pt@3x.png"; sourceTree = "<group>"; };
+		2DE76D752373CDB700E8ACAD /* icon_60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_60pt@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE76D352373CD1600E8ACAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE76D4B2373CD1800E8ACAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE76D562373CD1800E8ACAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE76D2F2373CD1600E8ACAD = {
+			isa = PBXGroup;
+			children = (
+				2DE76D3A2373CD1600E8ACAD /* Arteread */,
+				2DE76D512373CD1800E8ACAD /* ArtereadTests */,
+				2DE76D5C2373CD1800E8ACAD /* ArtereadUITests */,
+				2DE76D392373CD1600E8ACAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE76D392373CD1600E8ACAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE76D382373CD1600E8ACAD /* Arteread.app */,
+				2DE76D4E2373CD1800E8ACAD /* ArtereadTests.xctest */,
+				2DE76D592373CD1800E8ACAD /* ArtereadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE76D3A2373CD1600E8ACAD /* Arteread */ = {
+			isa = PBXGroup;
+			children = (
+				2DE76D3B2373CD1600E8ACAD /* AppDelegate.swift */,
+				2DE76D3D2373CD1600E8ACAD /* SceneDelegate.swift */,
+				2DE76D3F2373CD1600E8ACAD /* ViewController.swift */,
+				2DE76D412373CD1600E8ACAD /* Main.storyboard */,
+				2DE76D442373CD1800E8ACAD /* Assets.xcassets */,
+				2DE76D6D2373CDB700E8ACAD /* icons */,
+				2DE76D462373CD1800E8ACAD /* LaunchScreen.storyboard */,
+				2DE76D492373CD1800E8ACAD /* Info.plist */,
+			);
+			path = Arteread;
+			sourceTree = "<group>";
+		};
+		2DE76D512373CD1800E8ACAD /* ArtereadTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE76D522373CD1800E8ACAD /* ArtereadTests.swift */,
+				2DE76D542373CD1800E8ACAD /* Info.plist */,
+			);
+			path = ArtereadTests;
+			sourceTree = "<group>";
+		};
+		2DE76D5C2373CD1800E8ACAD /* ArtereadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE76D5D2373CD1800E8ACAD /* ArtereadUITests.swift */,
+				2DE76D5F2373CD1800E8ACAD /* Info.plist */,
+			);
+			path = ArtereadUITests;
+			sourceTree = "<group>";
+		};
+		2DE76D6D2373CDB700E8ACAD /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				2DE76D6E2373CDB700E8ACAD /* Icon.png */,
+				2DE76D702373CDB700E8ACAD /* icon_20pt.png */,
+				2DE76D712373CDB700E8ACAD /* Icon_noback.png */,
+				2DE76D722373CDB700E8ACAD /* icon_76pt.png */,
+				2DE76D742373CDB700E8ACAD /* icon_60pt@3x.png */,
+				2DE76D752373CDB700E8ACAD /* icon_60pt@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DE76D372373CD1600E8ACAD /* Arteread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE76D622373CD1800E8ACAD /* Build configuration list for PBXNativeTarget "Arteread" */;
+			buildPhases = (
+				2DE76D342373CD1600E8ACAD /* Sources */,
+				2DE76D352373CD1600E8ACAD /* Frameworks */,
+				2DE76D362373CD1600E8ACAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arteread;
+			productName = Arteread;
+			productReference = 2DE76D382373CD1600E8ACAD /* Arteread.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DE76D4D2373CD1800E8ACAD /* ArtereadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE76D652373CD1800E8ACAD /* Build configuration list for PBXNativeTarget "ArtereadTests" */;
+			buildPhases = (
+				2DE76D4A2373CD1800E8ACAD /* Sources */,
+				2DE76D4B2373CD1800E8ACAD /* Frameworks */,
+				2DE76D4C2373CD1800E8ACAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE76D502373CD1800E8ACAD /* PBXTargetDependency */,
+			);
+			name = ArtereadTests;
+			productName = ArtereadTests;
+			productReference = 2DE76D4E2373CD1800E8ACAD /* ArtereadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DE76D582373CD1800E8ACAD /* ArtereadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE76D682373CD1800E8ACAD /* Build configuration list for PBXNativeTarget "ArtereadUITests" */;
+			buildPhases = (
+				2DE76D552373CD1800E8ACAD /* Sources */,
+				2DE76D562373CD1800E8ACAD /* Frameworks */,
+				2DE76D572373CD1800E8ACAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE76D5B2373CD1800E8ACAD /* PBXTargetDependency */,
+			);
+			name = ArtereadUITests;
+			productName = ArtereadUITests;
+			productReference = 2DE76D592373CD1800E8ACAD /* ArtereadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE76D302373CD1600E8ACAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Damian Diaz";
+				TargetAttributes = {
+					2DE76D372373CD1600E8ACAD = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					2DE76D4D2373CD1800E8ACAD = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 2DE76D372373CD1600E8ACAD;
+					};
+					2DE76D582373CD1800E8ACAD = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 2DE76D372373CD1600E8ACAD;
+					};
+				};
+			};
+			buildConfigurationList = 2DE76D332373CD1600E8ACAD /* Build configuration list for PBXProject "Arteread" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DE76D2F2373CD1600E8ACAD;
+			productRefGroup = 2DE76D392373CD1600E8ACAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE76D372373CD1600E8ACAD /* Arteread */,
+				2DE76D4D2373CD1800E8ACAD /* ArtereadTests */,
+				2DE76D582373CD1800E8ACAD /* ArtereadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE76D362373CD1600E8ACAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE76D482373CD1800E8ACAD /* LaunchScreen.storyboard in Resources */,
+				2DE76D452373CD1800E8ACAD /* Assets.xcassets in Resources */,
+				2DE76D432373CD1600E8ACAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE76D4C2373CD1800E8ACAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE76D572373CD1800E8ACAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE76D342373CD1600E8ACAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE76D402373CD1600E8ACAD /* ViewController.swift in Sources */,
+				2DE76D3C2373CD1600E8ACAD /* AppDelegate.swift in Sources */,
+				2DE76D3E2373CD1600E8ACAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE76D4A2373CD1800E8ACAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE76D532373CD1800E8ACAD /* ArtereadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE76D552373CD1800E8ACAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE76D5E2373CD1800E8ACAD /* ArtereadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DE76D502373CD1800E8ACAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE76D372373CD1600E8ACAD /* Arteread */;
+			targetProxy = 2DE76D4F2373CD1800E8ACAD /* PBXContainerItemProxy */;
+		};
+		2DE76D5B2373CD1800E8ACAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE76D372373CD1600E8ACAD /* Arteread */;
+			targetProxy = 2DE76D5A2373CD1800E8ACAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DE76D412373CD1600E8ACAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE76D422373CD1600E8ACAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE76D462373CD1800E8ACAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE76D472373CD1800E8ACAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DE76D602373CD1800E8ACAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DE76D612373CD1800E8ACAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE76D632373CD1800E8ACAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLGY8KM74Z;
+				INFOPLIST_FILE = Arteread/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.Arteread;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2DE76D642373CD1800E8ACAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLGY8KM74Z;
+				INFOPLIST_FILE = Arteread/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.Arteread;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2DE76D662373CD1800E8ACAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLGY8KM74Z;
+				INFOPLIST_FILE = ArtereadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.ArtereadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arteread.app/Arteread";
+			};
+			name = Debug;
+		};
+		2DE76D672373CD1800E8ACAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLGY8KM74Z;
+				INFOPLIST_FILE = ArtereadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.ArtereadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arteread.app/Arteread";
+			};
+			name = Release;
+		};
+		2DE76D692373CD1800E8ACAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLGY8KM74Z;
+				INFOPLIST_FILE = ArtereadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.ArtereadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arteread;
+			};
+			name = Debug;
+		};
+		2DE76D6A2373CD1800E8ACAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLGY8KM74Z;
+				INFOPLIST_FILE = ArtereadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.damian.ArtereadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arteread;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE76D332373CD1600E8ACAD /* Build configuration list for PBXProject "Arteread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE76D602373CD1800E8ACAD /* Debug */,
+				2DE76D612373CD1800E8ACAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE76D622373CD1800E8ACAD /* Build configuration list for PBXNativeTarget "Arteread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE76D632373CD1800E8ACAD /* Debug */,
+				2DE76D642373CD1800E8ACAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE76D652373CD1800E8ACAD /* Build configuration list for PBXNativeTarget "ArtereadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE76D662373CD1800E8ACAD /* Debug */,
+				2DE76D672373CD1800E8ACAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE76D682373CD1800E8ACAD /* Build configuration list for PBXNativeTarget "ArtereadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE76D692373CD1800E8ACAD /* Debug */,
+				2DE76D6A2373CD1800E8ACAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE76D302373CD1600E8ACAD /* Project object */;
+}
