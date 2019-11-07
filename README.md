@@ -32,18 +32,30 @@ $ curl -X POST http://localhost:5000/api/v1.0/search/<FOOD_HERE>/api=<API_KEY>
   - [X] Parse JSON response and collect "Food Code" from top result
   - [X] Make another call with "Food Code" to collect nutrition info
   - [X] Parse JSON response and collect needed info
-- [ ] Create server side request handler using Flask
+- [X] Create server side request handler using Flask
   - [X] Handle inbound requests
   - [X] Parse keywords from request 
-  	- [ ] possibly run natural language processing on them
+      - [ ] possibly run natural language processing on them
   - [X] Send keywords to ingestion engine, recieve response
   - [X] Respond to initial request with ingestion response
   - [X] Secure API (authorization, request limits) 
-- [ ] Build test dashboard to test back-end services
 - [X] Deploy 
 ##### [FRONT-END]
 - [X] Set up X-Code enviornment
-- [ ] pending
+- [ ] Create Overview page
+  - [X] Create progress bar feature, with cholesterol amount
+  - [ ] Create date header, and labels
+  - [ ] Create info button
+- [ ] Create View Page
+  - [ ] Create list feature
+  - [ ] Create add button
+- [ ] Create Add page
+  - [ ] Create search feature
+  - [ ] Create list and results found label
+  - [ ] Create manual add button
+  - [ ] Create back button
+- [ ] Polish animations/transitions
+- [ ] Publish!
 
 *Have an idea for a feature? Fork this repo and add it to the list!*
  
